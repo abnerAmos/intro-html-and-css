@@ -1,0 +1,60 @@
+/* TAGS com esspecificaçãoes, informão qual a configuração que todas as TAGS do HTML serão configuradas */
+body {
+    
+}
+
+.sobre {
+    background: #CCC;
+    padding: 30px;
+}
+
+/* TRALHA(HASTAG) com especificaçãoes, se vinculam com a os "id's" do HTML e informam que somente aquele ID terá determinada configuração */
+#banner {
+    width: 100%;
+}
+
+.titulo-centralizado {
+    text-align: center
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+#missao {
+    font-size: 20px;
+}
+
+em strong {
+    color: red;
+}
+
+/* "." PONTO com especificaçãoes, se vinculam com a as "class" do HTML e informam que todos marcados terão determinada configuração */
+.itens {
+    font-style: italic;
+}
+
+.beneficios {
+    background: white;
+    padding: 20px;
+}
+
+h3 {
+    text-align: center;
+    background-color: chartreuse;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    margin-right:  15%;
+    width: 20%;
+}
+
+.imagem-beneficios {
+    width: 50%;
+}
