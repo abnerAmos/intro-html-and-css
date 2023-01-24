@@ -1,0 +1,122 @@
+/* ANOTAÇÕES DAS CONFIGURAÇÕES
+- padding(margem Interna): espaços ao redor de um elemento (cima/baixo/esquerda/direita),
+... onde o 1° numero é cima/baixo e o 2° é esquerda/direita;
+- margin(margem Externa): Margens laterais de um objeto, sendo o 1° num. Cima, 2° Dir, 3° Baixo, 4° Esq,
+... se informar apenas o 1° é setado em todos os lados, se informa o 1° e zerar o 2° é setado Cima e Baixo,
+... se informa o 2° e zerar o 1° é setado Direita e Esquerda;
+*/
+
+header {
+    background: black;
+    padding: 20px 0;
+}
+
+body {
+    background: rgb(195, 195, 195);
+}
+
+.involucro {
+    width: 940px;
+    position: relative; /* Elemento pode se mover de forma relativa ao ponto inicial, para os lados, cima e baixo do ponto inicial*/
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 20px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: darkgray;
+    text-decoration: overline;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+fieldset {
+    margin: 10px 0;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    padding: 10px;
+    font-weight: bold;
+    background: black;
+    color: white;
+    border: white;
+    border-radius: 10px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: rgb(46, 46, 46);
+    transform: scale(1.2);
+}
+
+table {
+    margin:  20px 0 40px;   
+}
+
+thead {
+    background: black;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 15px 8px;
+}
+
+footer {
+    text-align: center;
+    background: url("bg2.jpg");
+}
+
+footer p {
+    padding: 20px;
+}
+
+footer em {
+    font-style: italic;
+    font-weight: bold;
+}
