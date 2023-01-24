@@ -1,5 +1,6 @@
 /* ANOTAÇÕES DAS CONFIGURAÇÕES
-- padding(preenchimento): espaços em cima e baixo de um elemento;
+- padding(preenchimento): espaços ao redor de um elemento (cima/baixo/esquerda/direita),
+... onde o primeiro numero é cima/baixo e o segundo é esquerda/direita;
 - widht(largura): Largura total de um objeto;
 - margin: Margens laterais de um objeto;
 - display: informa o tipo de espaçamento que o Elemento tem, ex.: se ocupa uma linha completa, o proprio tamanho;

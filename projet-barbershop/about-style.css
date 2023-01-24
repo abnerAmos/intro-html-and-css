@@ -1,41 +1,96 @@
-/* TAGS com esspecificaçãoes, informão qual a configuração que todas as TAGS do HTML serão configuradas */
-body {
-    
+/* TAGS com especificaçãoes, informão qual a configuração que todas as TAGS do HTML serão configuradas */
+
+header {
+    background: black;
+    padding: 20px 0px;
 }
 
-.sobre {
-    background: #CCC;
-    padding: 30px;
+body {
+    background: rgb(195, 195, 195);
+    font-family: 'Manjari', sans-serif;
+}
+
+.involucro {
+    width: 940px;
+    position: relative; /* Elemento pode se mover de forma relativa ao ponto inicial, para os lados, cima e baixo do ponto inicial*/
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 20px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: darkgray;
+    text-decoration: overline;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
 }
 
 /* TRALHA(HASTAG) com especificaçãoes, se vinculam com a os "id's" do HTML e informam que somente aquele ID terá determinada configuração */
-#banner {
+.banner {
     width: 100%;
 }
 
-.titulo-centralizado {
-    text-align: center
+.sobre {
+    padding: 2em;
+    clear: left;  
 }
 
-h1 {
-    text-align: center;
+.sobre p {
+    margin: 0 0 1em;
+    font-size: 17.4px;    
 }
 
-p {
-    text-align: center;
-}
-
-#missao {
-    font-size: 20px;
-}
-
-em strong {
+.sobre em {
     color: red;
+    font-style: italic; 
+    font-weight: bold;
+}
+
+.poste {
+   width: 63px;
+   float: left;
+   padding: 0 20px;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    font-weight: bold;
 }
 
 /* "." PONTO com especificaçãoes, se vinculam com a as "class" do HTML e informam que todos marcados terão determinada configuração */
 .itens {
     font-style: italic;
+}
+
+.mapa {
+    padding: 0 0 3em;
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
 }
 
 .beneficios {
@@ -48,13 +103,27 @@ h3 {
     background-color: chartreuse;
 }
 
-ul {
-    display: inline-block;
-    vertical-align: top;
-    margin-right:  15%;
-    width: 20%;
-}
 
 .imagem-beneficios {
     width: 50%;
+}
+
+.video {
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    background: url("bg.jpg");
+}
+
+footer p {
+    padding: 20px;
+    color: white;
+}
+
+footer em {
+    font-style: italic;
+    font-weight: bold;
 }
