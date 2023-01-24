@@ -103,6 +103,10 @@ footer {
     background: url("bg2.jpg");
 }
 
+footer p {
+    padding: 20px;
+}
+
 footer em {
     font-style: italic;
     font-weight: bold;
