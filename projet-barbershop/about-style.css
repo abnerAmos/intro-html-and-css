@@ -6,7 +6,7 @@ header {
 }
 
 body {
-    background: rgb(195, 195, 195);
+    background: whitesmoke;
     font-family: 'Manjari', sans-serif;
 }
 
@@ -16,18 +16,18 @@ body {
     margin: 0 auto;
 }
 
-nav {
+.involucro nav {
     position: absolute;
     top: 110px;
     right: 20px;
 }
 
-nav li {
+.involucro li {
     display: inline;
     margin: 0 0 0 15px;
 }
 
-nav a {
+.involucro a {
     text-transform: uppercase;
     color: white;
     font-weight: bold;
@@ -35,14 +35,9 @@ nav a {
     text-decoration: none;
 }
 
-nav a:hover {
+.involucro a:hover {
     color: darkgray;
     text-decoration: overline;
-}
-
-main {
-    width: 940px;
-    margin: 0 auto;
 }
 
 /* TRALHA(HASTAG) com especificaçãoes, se vinculam com a os "id's" do HTML e informam que somente aquele ID terá determinada configuração */
@@ -52,12 +47,15 @@ main {
 
 .sobre {
     padding: 2em;
-    clear: left;  
+    clear: left;
+    width: 940px;
+    margin: 0 auto;
 }
 
 .sobre p {
     margin: 0 0 1em;
-    font-size: 17.4px;    
+    font-size: 17.4px;
+    
 }
 
 .sobre em {
@@ -81,11 +79,25 @@ main {
 
 /* "." PONTO com especificaçãoes, se vinculam com a as "class" do HTML e informam que todos marcados terão determinada configuração */
 .itens {
-    font-style: italic;
+    line-height: 1.5;
+}
+
+.itens a {
+    color: black;
+    text-decoration: underline;
+}
+
+.itens:last-child {
+    font-weight: bold;
 }
 
 .mapa {
     padding: 0 0 3em;
+}
+
+.mapa-conteudo {
+    width: 940px;
+    margin: 0 auto;
 }
 
 .mapa p {
@@ -94,18 +106,32 @@ main {
 }
 
 .beneficios {
-    background: white;
     padding: 20px;
+    background: linear-gradient(whitesmoke, darkgray);
+    margin: 0 auto;
 }
 
-h3 {
+.titulo-beneficios {
     text-align: center;
-    background-color: chartreuse;
+    font-size: 2em;
+    margin: 0 0 1em;
+    font-weight: bold;
 }
 
+.conteudo-beneficios {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-beneficios { 
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
 
 .imagem-beneficios {
     width: 50%;
+    box-shadow: 10px 10px 10px rgb(112, 110, 110);
 }
 
 .video {
@@ -126,4 +152,8 @@ footer p {
 footer em {
     font-style: italic;
     font-weight: bold;
+}
+
+@media screen and (max-width: 480px) {
+    
 }
