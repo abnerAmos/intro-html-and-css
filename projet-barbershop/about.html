@@ -5,27 +5,47 @@
 <html lang="pt-br">
 
 <!-- Dentro  de "head" são todas as informações que não fazem parte do corpo do HTML -->
-
 <head>
+
+    <!-- "charset" informa ao navegador qual os padrões de idiomas aceitos -->
     <meta charset="UTF-8">
+    <!-- Tag que habilita a configuração para tornar o site Responsivo -->
     <meta name="viewport" content="width=device-width">
+
+    <!-- Tag "title" serve para todo e qualquer tipo de titulo que for implementado no HTML -->
     <title>About - Barbearia Alura</title>
+
+    <!-- Tag "link" serve para fazer referencias a URL's ou arquivos, podendo utilizar para sincronização com outros arquivos como .css,
+    ou para links de URL's externos -->
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="about-style.css">
     
+    <!-- Obtendo uma fonte externa via URL -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manjari:wght@100;400&display=swap" rel="stylesheet">
 </head>
 
 <!-- Dentro  de "body" são todas as informações expostas/visiveis no corpo do HTML -->
-
 <body>
+
+    <!-- Tag "header" é o cabeçario do HTML, recebe todas as informações que ficaram no topo da página -->
     <header>
+
+        <!-- Tag "class" servem para confirurar diversos itens que compartilham da mesma configuração igual (no CSS),
+        para não ter a necessidade de criar diversos "id's"-->
         <div class="involucro">
+
+            <!-- Tag "h1,2,3,4,5,6" informa que é um titulo ou subtitulo e o destaca; possui 6 tamanho de "h1" a "h6";
+            quanto maior o numero, menor a fonte -->
             <h1><img src="logo-branco.png" alt="Logo Barbearia"></h1>
+
+            <!-- tag "nav" é utilizado para todos os itens que forem itens de navegação, que levam até outra página -->
             <nav>
+
+                <!-- "ul" cria uma lista com marcações e "ol" uma lista numerada -->
                 <ul>
+                    <!-- "li" informa que cada linha da lista é um ítem -->
                     <li><a href="about.html">Home</a></li>
                     <li><a href="products.html">Produtos</a></li>
                     <li><a href="contacts.html">Contatos</a></li>
@@ -34,13 +54,16 @@
         </div>
     </header>
 
-    <!-- "src" serve para anexar uma imagem -->
+    <!-- Tag "img" é utilizada para inserir uma image juntamente com "src" que anexa uma imagem,
+    a imagem necessita estar no mesmo pacote do projeto para que seja reconhecido -->
     <img class="banner" src="banner-barbearia2.jpg">
 
-    <!-- "h1" informa que é um titulo e o destaca; possui 6 tamanho de "h1" a "h6"; quanto maior o numero, menor a fonte -->
-    <!-- "div" cria divisões internas (blocos) para dividir conteúdos -->
+    <!-- Tag "main" é a parte principal do corpo, aonde contém todo o conteudo principal da página -->
     <main>
 
+        <!-- Tag "section" serve para fazer separações de conteudo dentro do HTML e tornalo mais semântico,
+        ideal utilizalo quando determinado conteudo do HTML tiver diversas partes/seções. Então criamos
+        seções para separar e caso necessário criar "div" internamente para demais separações. -->
         <section class="sobre">
             <h2 class="titulo">Sobre a Barbearia Alura</h2>
 
@@ -53,8 +76,6 @@
                 cidade e conquista novos clientes a cada dia.
             </p>
 
-            <!-- "style" faz parte do CSS que estiliza a fonte, é possivel colocar diversas informações como tamanho da fonte e centralização -->
-            <!-- "id" serve para informar ao CSS que esta tag "p" dentre todas as outras iguais terá uma formatação unica e direfente das demais -->
             <p class="missao">Nossa missão é: <em><strong>"Proporcionar auto-estima e qualidade de
                         vida aos clientes".</strong></em></p>
 
@@ -67,7 +88,12 @@
             <h2 class="titulo">Onde nos Localizar</h2>
             <p>Nosso estabelecimento está localizado em local de fácil acesso.</p>
 
+            <!-- Tag "div" cria divisões internas (blocos) para dividir conteúdos, para tornar mais organizado o HTML,
+            ideal utilizar para criar divisões dentro de uma "section" -->
             <div class="mapa-conteudo">
+
+            <!-- Tag "iframe" geralmente vem de links externos para obter dados exclusivos de outros sites como:
+            vídeos do Youtube, mapas de localização da Google, entre outros... -->
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.4498404748992!2d-46.63452058509854!3d-23.588194784669575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sAlura%20-%20Escola%20Online%20de%20Tecnologia!5e0!3m2!1spt-BR!2sbr!4v1674588928278!5m2!1spt-BR!2sbr"
                 width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
@@ -79,11 +105,7 @@
             <h3 class="titulo-beneficios">Benefícios</h3>
 
             <div class="conteudo-beneficios">
-
-                <!-- "ul" cria uma lista com marcações e "ol" uma lista numerada -->
-                <!-- "li" informa que cada linha da lista é um ítem -->
-                <!-- "class" servem para confirurar diversos itens que compartilham da mesma configuração igual,
-    para não ter a necessidade de criar diversos "id's"-->
+                
                 <ul class="lista-beneficios">
                     <li class="itens">Profissionais Qualificados</li>
                     <li class="itens">Atendimento aos clientes</li>
@@ -105,6 +127,7 @@
         </section>
     </main>
 
+    <!-- Tag "footer" define todo o conteúdo do rodapé -->
     <footer>
         <img src="logo-branco.png" alt="Logo Barbearia">
         <p>&copy; Produzido para Estudo por: <em>Abner Amos</em></p>

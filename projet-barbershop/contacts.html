@@ -27,24 +27,42 @@
     </header>
 
     <main>
+        <!-- Tag "form" é utilizado para criar formulários preeenchiveis -->
         <form>
+
+            <!-- Tag "label" serve para informar o nome do campo a ser preenchido -->
+            <!-- Propriedade "for" faz par com "id" de "input", para que o usuário possa clicar no nome do campo,
+            e habilitar a box(campo) para digitar a informação -->
             <label for="nomeSobrenome">Nome e Sobrenome</label>
+            <!-- Tag "input" cria um campo para ser digitado a informações -->
+            <!-- Propriedade "type" serve para determinar o tipo de dado que será inserido no campo, como ex: texto ou numero -->
+            <!-- Propriedade "required" obriga ao usuário preencher o campo -->
             <input type="text" id="nomeSobrenome" class="input-padrao" required>
 
             <label for="email">E-mail</label>
+            <!-- Propriedade "placeholder" insere dentro do campo um exemplo dos dados que ele quer receber -->
             <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
 
             <label for="contato">Contato</label>
             <input type="tel" id="contato" class="input-padrao" required placeholder="(11) 99999-9999">
 
             <label for="msg">Mensagem</label>
+            <!-- Tag "textarea" cria um campo/area para ser digitar mensagens longas,
+            com as propriedade "cols" e "rows" informa o tamamho da area de mensagem-->
             <textarea cols="70" rows="10" id="msg" class="input-padrao" required></textarea>
 
+            <!-- Tag "fildset" é a divisão para campos selecionáveis, é a forma mais semânticamente correta -->
             <fieldset>
+                <!-- Tag "legend" são os título semânticos para a Tag "fildset" -->
                 <legend>Como prefere o nosso contato?</legend>
+
+                <!-- O valor "radio" da Propriedade "type" cria um campo selecionável em forma de "bolinha"
+                que não "desceleciona" -->
                 <label for="radio-email"><input type="radio" name="contato" value="email"
                         id="radio-email">E-mail</label>
 
+                <!-- A Propriedade "name" replicada em todos as "label" do tipo "radio" permite que apenas
+                uma unica opção seja selecionada -->
                 <label for="radio-contato"><input type="radio" name="contato" value="contato"
                         id="radio-contato">Contato</label>
 
@@ -54,26 +72,38 @@
 
             <fieldset>
                 <legend>Qual horário prefere ser atendido?</legend>
+                <!-- Tag "select" recebe campos ao qual temos que selecionar opções -->
                 <select>
+                    <!-- Tag "option" cria as opções disponiveis dentro de uma box -->
                     <option>Manhã</option>
                     <option>Tarde</option>
                     <option>Noite</option>
                 </select>
             </fieldset>
 
+           <!-- O valor "checkbox" da Propriedade "type" cria um campo selecionável em forma de "quadradinho",
+            a Propriedade "checked" deixa o campo já selecionado assim que o usuário carrega a pagina -->
             <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por
                 e-mail?</label>
 
+            <!-- Tag "input" com a Propriedade "type" e valor "submit" cria um botão clicável,
+            a Propriedade "value" informa o texto que irá dentro do botão -->
             <input type="submit" value="Enviar Formulário" class="enviar">
         </form>
 
+        <!-- Tag "table" recebe tags especificas para criar tabelas -->
         <table>
+            <!-- Tag "thead" cria o cabeçario da tabela -->
             <thead>
+                <!-- Tag "tr" cria cada linha da tabela -->
                 <tr>
+                    <!-- Tag "th" cria cada coluna da tabela -->
                     <th>Dia</th>
                     <th>Horário</th>
                 </tr>
             </thead>
+
+            <!-- Tag "tbody" cria o corpo da tabela -->
             <tbody>
                 <tr>
                     <td>Segunda</td>
@@ -88,6 +118,9 @@
                     <td>9h ás 19h</td>
                 </tr>
             </tbody>
+
+            <!-- Tag "tfoot" cria o rodapé da tabela -->
+
         </table>
     </main>
 
