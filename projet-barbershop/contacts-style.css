@@ -55,6 +55,7 @@ form {
     margin: 40px 0;
 }
 
+/* Configura 2 elementos da mesma forma */
 form label, form legend {
     display: block;
     font-size: 20px;
@@ -83,13 +84,13 @@ fieldset {
     color: white;
     border: white;
     border-radius: 10px;
-    transition: 1s all;
-    cursor: pointer;
+    transition: 1s all; /* Cria uma delay na transição */
+    cursor: pointer; /* Cursor vira "mãozinha" ao passar por cima */
 }
 
 .enviar:hover {
     background: rgb(46, 46, 46);
-    transform: scale(1.2);
+    transform: scale(1.2); /* aumenta de tamanho */
 }
 
 table {

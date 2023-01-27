@@ -1,8 +1,10 @@
 /* ANOTAÇÕES DAS CONFIGURAÇÕES
-- padding(preenchimento): espaços ao redor de um elemento (cima/baixo/esquerda/direita),
-... onde o primeiro numero é cima/baixo e o segundo é esquerda/direita;
+- padding(margem Interna): espaços ao redor de um elemento (cima/baixo/esquerda/direita),
+... onde o 1° numero é cima/baixo e o 2° é esquerda/direita;
 - widht(largura): Largura total de um objeto;
-- margin: Margens laterais de um objeto;
+- margin(margem Externa): Margens laterais de um objeto, sendo o 1° num. Cima, 2° Dir, 3° Baixo, 4° Esq,
+... se informar apenas o 1° é setado em todos os lados, se informa o 1° e zerar o 2° é setado Cima e Baixo,
+... se informa o 2° e zerar o 1° é setado Direita e Esquerda;
 - display: informa o tipo de espaçamento que o Elemento tem, ex.: se ocupa uma linha completa, o proprio tamanho;
 - text-decoration: remove todas as configs de texto padrão do HTML
 - border: informando apenas uma medida, é aplicado em todas as bordas, informando 4 medidas, altera cada ponta de uma forma diferente
@@ -21,7 +23,7 @@ body {
 
 .involucro {
     width: 940px;
-    position: relative; /* Elemento pode se mover de forma relativa ao ponto inicial, para os lados, cima e baixo do ponto inicial*/
+    position: relative; /* Elemento pode se mover de forma relativa ao ponto inicial, para os lados, cima e baixo do ponto inicial */
     margin: 0 auto;
 }
 
@@ -64,21 +66,23 @@ main {
     display: inline-block;
     text-align: center;
     width: 30%;
-    vertical-align: top;
+    vertical-align: top; /* Alinha os textos de forma vertical */
     margin:  0 1.5%;
     padding: 30px 20px; 
-    box-sizing: border-box;
-    border: 4px solid black;
-    border-radius: 0px 30px 0px 30px;
+    box-sizing: border-box; /* Encapsula o elemento em uma caixa */
+    border: 4px solid black; /* Cria borda no elemento */
+    border-radius: 0px 30px 0px 30px; /* Arredondamento de bordas */
     background: white;
 }
 
 .products li:hover {
-    border-color: darkorange;
+    border-color: darkorange; /* Cor da borda ao passar o mouse */
 }
 
+/* Pseudo-Classes: gera um efeito a um elemento
+:active - Efeito ao clicar com o mouse */
 .products li:active {
-    border-color: firebrick;
+    border-color: firebrick; /* Cor da borda ao clicar */
 }
 
 .products li:hover h2 {
