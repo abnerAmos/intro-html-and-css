@@ -1,10 +1,9 @@
 header {
     width: 1440px;
     height: 80px;
-    position: relative;
 }
 
-section {
+.barra-nav {
     margin: 18px 80px;
     padding: 0 32px;
 }
@@ -12,6 +11,7 @@ section {
 .logo {
     display: inline-block;
     position: absolute;
+    margin-top: 4px;
 }
 
 h1 {
@@ -19,20 +19,20 @@ h1 {
     display: inline-block;
     left: 35px;
     top: 6px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Inter', sans-serif;
     color: #667085;
     font-weight: bold;
 }
 
 .menu {
-    margin: 6px 0 26.5px 299px;
+    margin: 10px 0 26.5px 299px;
     position: absolute;
 }
 
 .menu li {
     display: inline-block;
     margin: 0 0 0 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 .menu a {
@@ -48,7 +48,7 @@ h1 {
 .entrada li {
     display: inline-block;
     margin: 0 0 0 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 
@@ -76,4 +76,35 @@ h1 {
 .cadastrar:hover {
     transform: scale(1.1);
     transition: 1s all;
+}
+
+/* -------------------------------------------------- */
+
+.cabecario {
+    width: 1440px;
+    height: 407px;
+    padding-top: 152px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+h2 {
+    font-size: 16px;
+    color: #8E2424;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 48px;
+    padding-top: 24px;
+    font-weight: bold;
+    color: #101828;
+}
+
+.cabecario p {
+    font-size: 20px;
+    width: 792px;
+    height: 83px;
+    padding: 36px 324px 0;
+    color: #667085;
 }
