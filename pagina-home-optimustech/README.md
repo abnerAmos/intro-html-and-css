@@ -12,10 +12,10 @@
 <p>Talentos</p>
 <img src="https://user-images.githubusercontent.com/107812464/215872712-93b01690-b1bd-4bd3-b641-672e987ade42.png">
 
-<p>Comentários</p>
+<p>Vagas</p>
 <img src="https://user-images.githubusercontent.com/107812464/215872747-abf07c6e-d8e5-4698-b02a-0eaea1139edf.png">
 
-<p>Vagas</p>
+<p>Comentários</p>
 <img src="https://user-images.githubusercontent.com/107812464/215872771-8beaec75-410f-4a75-9283-cc1e4ca2aa5c.png">
 
 <p>Rodapé</p>
