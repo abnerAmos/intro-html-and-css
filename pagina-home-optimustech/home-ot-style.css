@@ -113,6 +113,12 @@ header {
 
 /* v---------------- Métricas ----------------v */
 
+main {
+    width: 1440px;
+    height: 80px;
+    margin-top: 350px;
+}
+
 .metricas {
     width: 1440px;
     height: 288px;
@@ -145,4 +151,41 @@ header {
 .metricas p {
     color: #667085;
     line-height: 22px;
+}
+
+/* v---------------- Vagass ----------------v */
+
+.vagas {
+    width: 1440px;
+    height: 1798px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.vagas div {
+    width: 1280px;
+    height: 602px;
+    margin: 0 auto;
+}
+
+.vagas h1 {
+    box-sizing: border-box;
+    padding: 5px 10px;
+    border-radius: 16px;
+    background: rgb(216, 216, 216);
+    display: inline;
+    color: #8E2424;
+    font-size: 14px;
+}
+
+.vagas h2 {
+    font-size: 36px;
+    font-weight: bold;
+    padding: 25px 0;
+}
+
+.vagas p {
+    padding-bottom: 64px;
+    color: #667085;
 }
