@@ -1,7 +1,7 @@
 <h1>Projeto Pagina OptimusTech</h1>
 
 <p>Barra de Navegação</p>
-https://user-images.githubusercontent.com/107812464/215872127-05427c94-5986-497a-9214-ef8225fc631d.png
+<img src="https://user-images.githubusercontent.com/107812464/215872127-05427c94-5986-497a-9214-ef8225fc631d.png">
 
 <p>Cabeçário</p>
 https://user-images.githubusercontent.com/107812464/215872586-542bd161-fb66-4019-948b-c246d516f6a9.png
