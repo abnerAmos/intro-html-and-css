@@ -1,3 +1,5 @@
+/* v---------------- Barra de Navegação ----------------v */
+
 header {
     width: 1440px;
     height: 80px;
@@ -14,7 +16,7 @@ header {
     margin-top: 4px;
 }
 
-h1 {
+.logo h1 {
     position: absolute;
     display: inline-block;
     left: 35px;
@@ -78,23 +80,23 @@ h1 {
     transition: 1s all;
 }
 
-/* -------------------------------------------------- */
+/* v---------------- Cabeçário ----------------v */
 
 .cabecario {
     width: 1440px;
-    height: 407px;
+    height: 250px;
     padding-top: 152px;
     text-align: center;
     font-family: 'Inter', sans-serif;
 }
 
-h2 {
+.cabecario h1 {
     font-size: 16px;
     color: #8E2424;
     font-weight: bold;
 }
 
-h3 {
+.cabecario h2 {
     font-size: 48px;
     padding-top: 24px;
     font-weight: bold;
@@ -107,4 +109,40 @@ h3 {
     height: 83px;
     padding: 36px 324px 0;
     color: #667085;
+}
+
+/* v---------------- Métricas ----------------v */
+
+.metricas {
+    width: 1440px;
+    height: 288px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.metricas div {
+    display: inline-block;
+    width: 20%;
+    padding-left: 32px;
+    text-align: left;
+    vertical-align: text-top;
+}
+
+.metricas h1 {
+    font-size: 60px;
+    color: #8E2424;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.metricas h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.metricas p {
+    color: #667085;
+    line-height: 22px;
 }
