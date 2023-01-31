@@ -1,3 +1,7 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
 /* v---------------- Barra de Navegação ----------------v */
 
 header {
@@ -21,7 +25,6 @@ header {
     display: inline-block;
     left: 35px;
     top: 6px;
-    font-family: 'Inter', sans-serif;
     color: #667085;
     font-weight: bold;
 }
@@ -34,7 +37,6 @@ header {
 .menu li {
     display: inline-block;
     margin: 0 0 0 20px;
-    font-family: 'Inter', sans-serif;
 }
 
 .menu a {
@@ -50,9 +52,7 @@ header {
 .entrada li {
     display: inline-block;
     margin: 0 0 0 0px;
-    font-family: 'Inter', sans-serif;
 }
-
 
 .entrada a {
     text-decoration: none;
@@ -87,7 +87,6 @@ header {
     height: 250px;
     padding-top: 152px;
     text-align: center;
-    font-family: 'Inter', sans-serif;
 }
 
 .cabecario h1 {
@@ -124,7 +123,6 @@ main {
     height: 288px;
     margin: 0 auto;
     text-align: center;
-    font-family: 'Inter', sans-serif;
 }
 
 .metricas div {
@@ -157,9 +155,8 @@ main {
 
 .vagas {
     width: 1440px;
-    height: 1798px;
+    height: 1500px;
     margin: 0 auto;
-    font-family: 'Inter', sans-serif;
 }
 
 .talentos{
@@ -195,7 +192,6 @@ main {
 .areas {
     width: 768px;
     margin: 0 auto;
-    font-family: 'Inter', sans-serif;
 }
 
 .cargos h1 {
@@ -219,4 +215,39 @@ main {
     border: 1px solid rgb(175, 175, 175);
     margin: 24px 0;
     padding: 24px 24px 28px;
+}
+
+/* v---------------- Vagas ----------------v */
+
+.depoimentos {
+    width: 1088px;
+    height: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.depoimentos h1 {
+    font-size: 14px;
+    color: #8E2424;
+    font-weight: bold;
+    margin-bottom: 2em;
+}
+
+.depoimentos h2 {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.2em;
+    margin-bottom: 1em;
+}
+
+.depoimentos h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 2em;
+}
+
+.depoimentos p {
+    font-size: 14px;
+    color: #667085;
+    margin-top: 1em;
 }
