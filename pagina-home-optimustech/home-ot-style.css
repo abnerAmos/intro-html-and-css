@@ -1,11 +1,12 @@
 body {
+    width: 1440px;
+    margin: 0 auto;
     font-family: 'Inter', sans-serif;
 }
 
 /* v---------------- Barra de Navegação ----------------v */
 
 header {
-    width: 1440px;
     height: 80px;
 }
 
@@ -82,7 +83,6 @@ header {
 /* v---------------- Cabeçário ----------------v */
 
 .cabecario {
-    width: 1440px;
     height: 250px;
     padding-top: 152px;
     text-align: center;
@@ -112,13 +112,11 @@ header {
 /* v---------------- Métricas ----------------v */
 
 main {
-    width: 1440px;
     height: 80px;
     margin-top: 350px;
 }
 
 .metricas {
-    width: 1440px;
     height: 288px;
     margin: 0 auto;
     text-align: center;
@@ -153,7 +151,6 @@ main {
 /* v---------------- Talentos ----------------v */
 
 .vagas {
-    width: 1440px;
     height: 1500px;
     margin: 0 auto;
 }
@@ -256,7 +253,6 @@ main {
 
 footer {
     text-align: center;
-    width: 1440px;
     height: 80px;
     margin: 0 auto;
 }
